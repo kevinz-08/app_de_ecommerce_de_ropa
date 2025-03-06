@@ -14,13 +14,19 @@ box-sizing: border-box;
     object-fit: cover;
     z-index: 1;
 }
-.img-header{
+.tittle-store{
+    color: var(--color-4);
+    font-family: "DINNextLTArabic-Medium";
+    font-weight:100;
     position: absolute;
-    top: -8%;
-    left: 25%;
-    width: 200px;
-    height: 200px;
+    top: 0%;
     z-index: 2;
+    width: 375px;
+    text-align: center;
+}
+.tittle-store:hover{
+    background-color: var(--color-4);
+    color: var(--color-5);
 }
 button{
     position: absolute;
@@ -30,8 +36,12 @@ button{
     height: 50px;
     border-radius: 15px;
     font-family: "EncodeSans-Bold";
-    background-color: var(--color-5);
+    background-color: var(--color-4);
     border: none;
-    color: var(--color-4);
+    color: var(--color-5);
     z-index: 2;
+}
+button:hover{
+    background-color: var(--color-5);
+    color: var(--color-4);
 }
