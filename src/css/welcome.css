@@ -1,0 +1,37 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.video-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+.img-header{
+    position: absolute;
+    top: -8%;
+    left: 25%;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+button{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: "EncodeSans-Bold";
+    background-color: var(--color-5);
+    border: none;
+    color: var(--color-4);
+    z-index: 2;
+}
