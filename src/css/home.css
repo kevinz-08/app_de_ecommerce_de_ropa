@@ -1,0 +1,35 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.tittle-store{
+    color: var(--color-5);
+    font-family: "DINNextLTArabic-Medium";
+    font-weight:100;
+    width: 375px;
+    height: 45px;
+    text-align: center;
+}
+.profile{
+    width: 25px;
+    height: 25px;
+    margin-left: 333px;
+    color: var(--color-5);
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+.profile:hover{
+    color: var(--color-3);
+}
+.three-points{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    color: var(--color-5);
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+}
