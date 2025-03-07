@@ -25,3 +25,7 @@
     font-family: "EncodeSans-Mixed";
     src: url(../storage/fonts/Encode_Sans/static/);
 }
+@font-face {
+    font-family: "DINNextLTArabic-Medium";
+    src: url(../storage/fonts/DINNextLTArabic-Medium/DINNextLTArabic-Medium.ttf);
+}
