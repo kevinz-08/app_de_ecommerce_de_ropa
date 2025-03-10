@@ -53,3 +53,37 @@ header img{
     padding: 12px;
     border-radius: 8px;
 }
+.filter-clothes {
+    margin-left: 24px;
+    margin-top: 32px;
+}
+.filter-clothes button{
+    border-radius: 8px;
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+    border-color: var(--color-6);
+}
+.all, .dress, .t-shirt, .pants{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all{
+    width: 92px;
+    height: 34px;
+    background-color: var(--color-1);
+}
+
+.dress{
+    width: 75px;
+    height: 34px;
+}
+
+.t-shirt{
+    width: 82px;
+    height: 34px;
+}
+.pants{
+    width: 73px;
+    height: 34px;
+}
