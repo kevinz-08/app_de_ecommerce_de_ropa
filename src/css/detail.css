@@ -1,0 +1,30 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.img-box{
+    width: 377px;
+    height: 392px;
+    display: flex;
+    margin-top: 24px;
+}
+.img-box .shirt{
+    width: 400px;
+    height: 490px;
+    border-radius: 16px;
+    margin-left: 24px;
+}
+.img-box .back{
+    position: absolute;
+    left: 70px;
+}
+.img-box .heart{
+    position: absolute;
+    left: 325px;
+}
+.content-box .text{
+    margin-top: 24px;
+    margin-left: 24px;
+}
