@@ -1,0 +1,296 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{
+    margin-top: 24px;
+    margin-left: 24px;
+    gap: 180px;
+    display: flex;
+    flex-direction: row;
+}
+header p{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+}
+header h1{
+    font-family: "EncodeSans-Bold";
+    font-size: 16px;
+    margin-top: 4px;
+}
+header img{
+    width: 32px;
+    height: 32px;
+}
+
+.search-box{
+    display: flex;
+    width: 327px;
+    height: 48px;
+    margin-top: 16px;
+    margin-left: 24px;
+    gap: 12px;
+
+}
+.search-box input{
+    width: 263px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: var(--color-6);
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 44px;
+    padding-bottom: 14px;
+}
+.search-box a{
+    text-decoration: none;
+    background-color: var(--color-1);
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px;
+}
+.filter-clothes {
+    margin-left: 24px;
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+.filter-clothes button{
+    border-radius: 8px;
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+}
+.all, .dress, .t-shirt, .pants{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all{
+    width: 92px;
+    height: 34px;
+    background-color: var(--color-1);
+    gap: 4px;
+    border: none;
+}
+.all img {
+    margin-left: 12px
+}
+.all p{
+    color: var(--color-4);
+}
+
+.dress{ 
+    width: 75px;
+    height: 34px;
+    gap: 4px;
+    border-color: var(--color-6);
+}
+.dress img {
+    margin-left: 12px
+}
+.dress p{
+    margin-right: 12px;
+}
+
+.t-shirt{
+    width: 82px;
+    height: 34px;
+    gap: 4px;
+    border-color: var(--color-6);
+}
+.t-shirt img{
+    margin-left: 12px
+}
+.t-shirt p{
+    margin-right: 12px;
+}
+.pants{
+    width: 73px;
+    height: 34px;
+    gap: 4px;
+    border-color: var(--color-6);
+}
+.pants img{
+    margin-left: 12px
+}
+.pants p{
+    margin-right: 12px;
+}
+
+
+
+.clothe{
+    display: flex;
+    flex-direction: column;
+}
+
+.clothe-box1 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box2 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box3 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box4 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+
+.clothe-column-1{
+    display: flex;
+}
+.clothe-box1{
+    width: 155px;
+    height: 298px;
+    margin-top: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.clothe-box1 .img-1{
+    width: 155px;
+    height: 217px;
+    border-radius: 16px;
+}
+.clothe-box1 .favorite{
+    position: absolute;
+    left: 145px;
+    top: 220px;
+}
+.clothe-column-1 h3{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    margin-top: 8px;
+}
+.clothe-column-1 p{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    margin-top: 4px;
+}
+.clothe-column-1 .price-star {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    gap: 24px;
+}
+.clothe-column-1 .price-star h2{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+.clothe-column-1 .price-star button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+.clothe-box2 {
+    margin-left: 17px;
+    margin-top: 24px;
+    width: 155px;
+    height: 332px;
+}
+.clothe-box2 .img-2{
+    width: 155px;
+    height: 251px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.clothe-box2 .favorite{
+    position: absolute;
+    left: 320px;
+    top: 220px;
+}
+
+.clothe-column-2{
+    display: flex;
+}
+.clothe-box3{
+    width: 155px;
+    height: 298px;
+    margin-top: 15px;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+}
+.clothe-box3 .img-3{
+    width: 155px;
+    height: 217px;
+    border-radius: 16px;
+}
+.clothe-box3 .favorite{
+    position: absolute;
+    left: 320px;
+    top: 570px;
+}
+.clothe-column-2 h3{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    margin-top: 8px;
+}
+.clothe-column-2 p{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    margin-top: 4px;
+}
+.clothe-column-2 .price-star {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    gap: 24px;
+}
+.clothe-column-2 .price-star h2{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+.clothe-column-2 .price-star button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+}
+.clothe-box4 {
+    margin-left: 24px;
+    margin-top: -30px;
+    width: 155px;
+    height: 332px;
+}
+.clothe-box4 .img-4{
+    width: 155px;
+    height: 251px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.clothe-box4 .favorite{
+    position: absolute;
+    left: 145px;
+    top: 525px;
+}
+
+footer .icons-box{
+    background-color: aqua;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 327px;
+    height: 60px;
+    background: black;
+    border-radius: 44px;
+    margin-left: 24px;
+}
