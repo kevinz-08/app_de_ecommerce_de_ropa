@@ -5,26 +5,126 @@ margin: 0;
 box-sizing: border-box;
 }
 .img-box{
-    width: 377px;
-    height: 392px;
+    width: 365px;
+    height: 475px;
     display: flex;
     margin-top: 24px;
 }
 .img-box .shirt{
-    width: 400px;
-    height: 490px;
+    width: 347px;
+    height: 470px;
     border-radius: 16px;
     margin-left: 24px;
 }
 .img-box .back{
+    width: 80px;
+    height: 80px;
     position: absolute;
-    left: 70px;
+    left: 25px;
 }
 .img-box .heart{
+    width: 80px;
+    height: 80px;
     position: absolute;
-    left: 325px;
+    left: 300px;
+}
+.content-box {
+    margin-left: 24px;
 }
 .content-box .text{
-    margin-top: 24px;
-    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 100px;
+}
+.text h1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 24px;
+}
+.text .puntuaction{
+    display: flex;
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    margin-top: 4px;
+}
+.text .puntuaction .puntuaction-1{
+    margin-left: 8px;
+    margin-right: 5px;
+}
+.text .puntuaction .n-puntuaction{
+    color: #347EFB;
+}
+.text .stock{
+    display: flex;
+    font-family: "EncodeSans-Bold";
+    margin-left: 260px;
+    margin-top: -45px;
+    gap: 12px;
+    align-items: center;
+}
+.text .stock button{
+    border-radius: 32px;
+}
+.text .description{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    margin-top: 16px;
+}
+.choose-color{
+    display: flex;
+    gap: 105px;
+    margin-top: 10px;
+}
+.content-box .size{
+    display: flex;
+    flex-direction: column;
+}
+.size button{
+    background-color: transparent;
+    border-color:var(--color-2);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    margin-top: 8px;
+}
+.size button:hover{
+    background-color: var(--color-1);
+    color: white;
+}
+
+.color .img-color{
+    margin-top: 8px;
+}
+
+.button{
+    background-color: var(--color-1);
+    width: 327px;
+    height: 60px;
+    border-radius: 45px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding-top: 20px;
+}
+.button img{
+    width: 24px;
+    height: 24px;
+}
+.button .text1{
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    margin-left: 8px;
+}
+.button .text2{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    text-decoration: line-through;
 }
