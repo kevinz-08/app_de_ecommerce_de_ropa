@@ -128,3 +128,18 @@ box-sizing: border-box;
     font-size: 10px;
     text-decoration: line-through;
 }
+.button:hover{
+    background-color: var(--color-3);
+}
+.button .text1{
+    color: var(--color-4);
+}
+.button .text2{
+    color: var(--color-4);
+}
+.button:hover .text1{
+    color: var(--color-1);
+}
+.button:hover .text2{
+    color: var(--color-1);
+}
