@@ -11,7 +11,6 @@ header{
     gap: 180px;
     display: flex;
     flex-direction: row;
-    /* height: 46px; */
 }
 header p{
     font-family: "EncodeSans-Regular";
@@ -20,6 +19,7 @@ header p{
 header h1{
     font-family: "EncodeSans-Bold";
     font-size: 16px;
+    margin-top: 4px;
 }
 header img{
     width: 32px;
@@ -128,6 +128,23 @@ header img{
     flex-direction: column;
 }
 
+.clothe-box1 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box2 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box3 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.clothe-box4 a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+
 
 .clothe-column-1{
     display: flex;
@@ -144,6 +161,11 @@ header img{
     width: 155px;
     height: 217px;
     border-radius: 16px;
+}
+.clothe-box1 .favorite{
+    position: absolute;
+    left: 145px;
+    top: 220px;
 }
 .clothe-column-1 h3{
     font-family: "EncodeSans-SemiBold";
@@ -184,7 +206,11 @@ header img{
     object-fit: cover;
     border-radius: 16px;
 }
-
+.clothe-box2 .favorite{
+    position: absolute;
+    left: 320px;
+    top: 220px;
+}
 
 .clothe-column-2{
     display: flex;
@@ -192,8 +218,8 @@ header img{
 .clothe-box3{
     width: 155px;
     height: 298px;
-    margin-top: 24px;
-    margin-left: 24px;
+    margin-top: 15px;
+    margin-left: 17px;
     display: flex;
     flex-direction: column;
 }
@@ -201,6 +227,11 @@ header img{
     width: 155px;
     height: 217px;
     border-radius: 16px;
+}
+.clothe-box3 .favorite{
+    position: absolute;
+    left: 320px;
+    top: 570px;
 }
 .clothe-column-2 h3{
     font-family: "EncodeSans-SemiBold";
@@ -230,8 +261,8 @@ header img{
     font-size: 14px;
 }
 .clothe-box4 {
-    margin-left: 17px;
-    margin-top: 24px;
+    margin-left: 24px;
+    margin-top: -30px;
     width: 155px;
     height: 332px;
 }
@@ -240,4 +271,26 @@ header img{
     height: 251px;
     object-fit: cover;
     border-radius: 16px;
+}
+.clothe-box4 .favorite{
+    position: absolute;
+    left: 145px;
+    top: 525px;
+}
+
+footer .icons-box{
+    background-color: aqua;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 327px;
+    height: 60px;
+    background: black;
+    border-radius: 44px;
+    margin-left: 24px;
 }
