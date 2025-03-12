@@ -1,0 +1,58 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.video-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+.tittle-store{
+    color: var(--color-4);
+    font-family: "DINNextLTArabic-Medium";
+    font-weight:100;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    width: 375px;
+    text-align: center;
+}
+.tittle-store:hover{
+    background-color: var(--color-4);
+    color: var(--color-5);
+}
+button{
+    background-color: var(--color-4);
+    color: var(--color-5);
+    font-family: "EncodeSans-Bold";
+    position: absolute;
+    top: 90%;
+    left: 18%;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    z-index: 2;
+}
+button:hover{
+    background-color: var(--color-5);
+    color: var(--color-4);
+}
+.compra h1{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    font-size: 50px;
+    font-family: "DINNextLTArabic-Medium";
+    font-weight: 100;
+    color: var(--color-4);
+    z-index: 2;
+}
